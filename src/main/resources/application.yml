@@ -1,0 +1,8 @@
+general:
+  kafka-topic: "financial_transactions"
+
+spring:
+  kafka:
+    consumer:
+      auto-offset-reset: earliest
+      group-id: midas
